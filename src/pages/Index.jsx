@@ -10,7 +10,6 @@ import Contact from "../components/Contact";
 
 const Index = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [e, setE] = useState(false);
 
   const togglerDrawer = () => {
     setDrawerOpen(!drawerOpen);
