@@ -31,31 +31,38 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             </svg>
           </label>
         </div>
-        <ul className="hidden flex-row md:flex md:w-1/4">
-          <li className="w-full flex">
+        <ul className="hidden flex-row md:flex md:w-1/4 items-center justify-between">
+          <li>
             <a
               onClick={togglerDrawer}
-              className="py-3 px-4 hover:bg-base-100 rounded-lg active:text-base active:bg-base-300 transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center md:my-auto md:px-0"
+              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+              href="#Home"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={togglerDrawer}
+              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
               href="#About"
             >
               About
             </a>
           </li>
-          <li className="w-full flex">
+          <li>
             <a
               onClick={togglerDrawer}
-              className="py-3 px-4 hover:bg-base-100 rounded-lg active:text-base active:bg-base-300 transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center md:my-auto md:px-0"
+              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
               href="#Projects"
             >
               Projects
             </a>
           </li>
-          <li className="w-full flex">
-            {/*  -- color warning --
-            className="py-3 px-4 hover:bg-base-200 rounded-lg active:text-black active:bg-warning transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center" */}
+          <li>
             <a
               onClick={togglerDrawer}
-              className="py-3 px-4 hover:bg-base-100 rounded-lg active:text-base active:bg-base-300 transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center md:my-auto md:mr-4 md:px-0"
+              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
               href="#Contact"
             >
               Contact
@@ -63,7 +70,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
           </li>
           <a
             href="#"
-            className="btn btn-outline btn-warning w-1/2 mx-auto mt-10 md:my-auto md:w-auto "
+            className="btn btn-warning w-1/2 mt-10 md:my-auto md:w-auto"
           >
             Resume
           </a>

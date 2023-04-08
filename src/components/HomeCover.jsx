@@ -5,7 +5,10 @@ import Nav from "./Nav";
 
 const HomeCover = () => {
   return (
-    <section className="h-screen  flex flex-col mx-auto bg-base-300 justify-center my-auto text-base-content md:w-3/5">
+    <section
+      id="Home"
+      className="h-screen flex flex-col mx-auto bg-base-300 justify-center my-auto text-base-content md:w-1/2"
+    >
       <h1 className="text-warning font-semibold mb-3 whitespace-pre">
         Hi, my name is
       </h1>
