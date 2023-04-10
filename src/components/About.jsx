@@ -14,15 +14,16 @@ const About = () => {
       <div className="md:flex md:flex-row">
         <div className="md:w-1/2 md:order-1 mb-4 md:text-lg">
           <p className="mb-4 md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            iste dolores, assumenda magnam odio maxime maiores delectus
-            exercitationem voluptas corrupti at excepturi blanditiis! Totam
-            autem numquam deleniti quae, repudiandae laudantium!
+            I am a junior frontend developer with knowledge of HTML, CSS,
+            JavaScript, React, and Razor C#. I excel at working in teams and
+            helping out whenever possible. I value feedback and strive for
+            personal growth. I am self-taught and currently studying to become a
+            systems analyst.
           </p>
-          <p className="mb-4 md:text-lg">
+          {/* <p className="mb-4 md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Dignissimosiste dolores. Dignissimos iste dolores.
-          </p>
+          </p> */}
         </div>
 
         <div className="md:w-1/2 md:order-2">

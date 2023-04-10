@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="flex flex-row items-center">
           <BsFillEnvelopeOpenFill size="2rem" />
           <div className="flex flex-col">
-            <h3 className="ml-4 font-bold">Email</h3>
+            <h3 className="ml-4 font-bold">Mail</h3>
             <p className="ml-4">Lrangarita7@gmail.com</p>
           </div>
         </div>
