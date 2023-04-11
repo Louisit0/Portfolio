@@ -5,6 +5,7 @@ import {
   BsInstagram,
   BsTwitter,
   BsFillEnvelopeOpenFill,
+  BsFillPinFill,
 } from "react-icons/bs";
 
 const Contact = () => {
@@ -48,10 +49,10 @@ const Contact = () => {
             <BsTwitter size="1.5rem" className=" hover:fill-warning" />
           </li>
         </ul>
-        <p className="mt-8 text-center text-sm">
-          Designed & Build by Luis Ramirez ❤️
-        </p>
       </div>
+      <p className="mt-8 text-center text-sm">
+        Designed & Build by Luis Ramirez ❤️
+      </p>
     </section>
   );
 };

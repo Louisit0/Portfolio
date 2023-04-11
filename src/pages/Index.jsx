@@ -31,8 +31,8 @@ const Index = () => {
           <Nav togglerDrawer={togglerDrawer} drawerOpen={drawerOpen} />
           <div className="mx-6">
             <HomeCover />
-            {/* <Skills /> */}
             <About />
+            <Skills />
             <Projects />
             <Contact />
           </div>
