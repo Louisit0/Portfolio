@@ -20,12 +20,7 @@ const About = () => {
             personal growth. I am self-taught and currently studying to become a
             systems analyst.
           </p>
-          {/* <p className="mb-4 md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimosiste dolores. Dignissimos iste dolores.
-          </p> */}
         </div>
-
         <div className="md:w-1/2 md:order-2">
           <div className="avatar relative flex flex-row rounded-full w-32 md:w-60 bg-base-100 mx-auto">
             <div className="w-32 md:w-60 rounded ring ring-gray-400 ring-offset-base-100 ring-offset-2">

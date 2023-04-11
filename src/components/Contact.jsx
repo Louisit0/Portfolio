@@ -17,20 +17,21 @@ const Contact = () => {
           Contact
         </h2>
       </div>
-      <div className="mx-auto mb-16">
+      <div className="mx-auto md:mx-0 mb-16">
         <h3 className="text-xl font-bold text-slate-200 md:text-xl my-4">
-          Don't be shy! Hit me up! 👇
+          Don't be shy! Get in touch! 👇
         </h3>
-        <p className="mb-4 md:w-4/5">
-          Although I’m not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you! 🙌
-        </p>
-        <div className="flex flex-row items-center">
-          <BsFillEnvelopeOpenFill size="2rem" />
-          <div className="flex flex-col">
-            <h3 className="ml-4 font-bold">Mail</h3>
-            <p className="ml-4">Lrangarita7@gmail.com</p>
+        <div className="md:flex md:flex-row">
+          <p className="mb-4 md:mb-0 md:w-1/2">
+            Let's connect! I'm open to discussing new opportunities,
+            collaborations, or just having a chat! 🙌
+          </p>
+          <div className="flex flex-row items-center mx-auto">
+            <BsFillEnvelopeOpenFill size="2rem" />
+            <div className="flex flex-col">
+              <h3 className="ml-4 font-bold">Mail</h3>
+              <p className="ml-4">Lrangarita7@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
