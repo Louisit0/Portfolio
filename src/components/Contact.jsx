@@ -17,7 +17,7 @@ const Contact = () => {
           Contact
         </h2>
       </div>
-      <div className="mx-auto md:mx-0 mb-16">
+      <div className="md:mx-0 mb-16">
         <h3 className="text-xl font-bold text-slate-200 md:text-xl my-4">
           Don't be shy! Get in touch! 👇
         </h3>
@@ -26,6 +26,13 @@ const Contact = () => {
           <div className="flex flex-col">
             <h3 className="ml-4 font-bold">Mail</h3>
             <p className="ml-4">Lrangarita7@gmail.com</p>
+          </div>
+        </div>
+        <div className="flex flex-row items-center mx-auto mt-5">
+          <BsFillPinFill size="2rem" />
+          <div className="flex flex-col">
+            <h3 className="ml-4 font-bold">Location</h3>
+            <p className="ml-4">Buenos Aires, Argentina</p>
           </div>
         </div>
       </div>
@@ -45,9 +52,7 @@ const Contact = () => {
           </li>
         </ul>
       </div> */}
-      <p className="mt-8 text-center text-sm">
-        Designed & Build by Luis Ramirez ❤️
-      </p>
+      <p className="mt-8 text-center text-sm">Made by Luis Ramirez</p>
     </section>
   );
 };
