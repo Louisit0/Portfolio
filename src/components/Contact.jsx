@@ -21,21 +21,15 @@ const Contact = () => {
         <h3 className="text-xl font-bold text-slate-200 md:text-xl my-4">
           Don't be shy! Get in touch! 👇
         </h3>
-        <div className="md:flex md:flex-row">
-          <p className="mb-4 md:mb-0 md:w-1/2">
-            Let's connect! I'm open to discussing new opportunities,
-            collaborations, or just having a chat! 🙌
-          </p>
-          <div className="flex flex-row items-center mx-auto">
-            <BsFillEnvelopeOpenFill size="2rem" />
-            <div className="flex flex-col">
-              <h3 className="ml-4 font-bold">Mail</h3>
-              <p className="ml-4">Lrangarita7@gmail.com</p>
-            </div>
+        <div className="flex flex-row items-center mx-auto mt-5">
+          <BsFillEnvelopeOpenFill size="2rem" />
+          <div className="flex flex-col">
+            <h3 className="ml-4 font-bold">Mail</h3>
+            <p className="ml-4">Lrangarita7@gmail.com</p>
           </div>
         </div>
       </div>
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <ul className="flex flex-wrap gap-16  justify-center">
           <li>
             <BsGithub size="1.5rem" className="hover:fill-warning" />
@@ -50,7 +44,7 @@ const Contact = () => {
             <BsTwitter size="1.5rem" className=" hover:fill-warning" />
           </li>
         </ul>
-      </div>
+      </div> */}
       <p className="mt-8 text-center text-sm">
         Designed & Build by Luis Ramirez ❤️
       </p>
