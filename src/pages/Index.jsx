@@ -40,7 +40,10 @@ const Index = () => {
         <div className="drawer-side">
           <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
 
-          <ul className=" p-4 pt-6 w-80 bg-base-100  flex flex-col">
+          <ul
+            className=" p-4 pt-6 w-80 flex flex-col"
+            style={{ backgroundColor: "#121212" }}
+          >
             <label className="swap swap-rotate justify-end mb-20">
               {/* this hidden checkbox controls the state  */}
               <input
@@ -101,7 +104,7 @@ const Index = () => {
             </li>
             <a
               href="#"
-              className="btn btn-outline btn-warning w-1/2 mx-auto mt-10"
+              className="btn btn-outline text-white hover:bg-white w-1/2 mx-auto mt-10"
             >
               Resume
             </a>
