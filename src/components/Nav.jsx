@@ -4,13 +4,16 @@ import { BsHouseDoorFill, BsCodeSlash, BsPersonFill } from "react-icons/bs";
 
 const Nav = ({ togglerDrawer, drawerOpen }) => {
   return (
-    <header className="w-full py-6 top-0 bg-base-300 z-50">
-      <nav className="md:mx-14 mx-auto flex flex-col md:flex-row justify-between">
+    <header
+      className="w-auto md:w-auto py-4 top-0 z-50 lg:w-1/2 lg:px-4 mx-auto"
+      style={{ backgroundColor: "#121212" }}
+    >
+      <nav className=" flex flex-col lg:flex-row justify-between">
         <div className="flex justify-between flex-row">
           <Link to={"/"} className="text-2xl my-auto ml-4 font-bold md:ml-0">
-            <span className="text-warning p-2 mr-1">Luis.dev</span>
+            <span className="text-white p-2 mr-1">Portfolio</span>
           </Link>
-          <label className="swap swap-rotate mr-4 md:hidden">
+          <label className="swap swap-rotate mr-4 lg:hidden">
             {/* this hidden checkbox controls the state  */}
             <input
               id="my-drawer-4"
@@ -21,7 +24,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
 
             {/* hamburger icon */}
             <svg
-              className="fill-current text-warning"
+              className="fill-current text-white"
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
@@ -31,50 +34,42 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             </svg>
           </label>
         </div>
-        <ul className="hidden flex-row md:flex md:w-1/4 items-center justify-between">
-          <li>
-            <a
-              onClick={togglerDrawer}
-              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
-              href="#Home"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              onClick={togglerDrawer}
-              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
-              href="#About"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              onClick={togglerDrawer}
-              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
-              href="#Projects"
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
-              onClick={togglerDrawer}
-              className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
-              href="#Contact"
-            >
-              Contact
-            </a>
-          </li>
+        <div className="hidden lg:flex flex-row items-center justify-between w-3/5">
+          <a
+            onClick={togglerDrawer}
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            href="#Home"
+          >
+            Home
+          </a>
+          <a
+            onClick={togglerDrawer}
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            href="#About"
+          >
+            About
+          </a>
+          <a
+            onClick={togglerDrawer}
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            href="#Projects"
+          >
+            Projects
+          </a>
+          <a
+            onClick={togglerDrawer}
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            href="#Contact"
+          >
+            Contact
+          </a>
           <a
             href="#"
-            className="btn btn-warning w-1/2 mt-10 md:my-auto md:w-auto"
+            className="btn btn-outline rounded-2xl w-1/2 mt-10 md:my-auto md:w-auto hover:bg-white"
           >
             Resume
           </a>
-        </ul>
+        </div>
       </nav>
     </header>
   );
