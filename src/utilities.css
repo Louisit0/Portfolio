@@ -33,7 +33,7 @@ body {
 /* Estilos para pantallas más grandes */
 @media screen and (min-width: 769px) {
   header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }
