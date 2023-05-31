@@ -7,9 +7,9 @@ const HomeCover = () => {
   return (
     <section
       id="Home"
-      className="h-screen flex flex-col mx-auto bg-base-300 justify-center my-auto text-base-content md:w-1/2"
+      className="h-screen flex flex-col mx-auto justify-center my-auto text-base-content md:w-1/2"
     >
-      <h1 className="text-warning font-semibold mb-3 whitespace-pre">
+      <h1 className="text-white font-semibold mb-3 whitespace-pre">
         Hi, my name is
       </h1>
       <h3 className="text-4xl font-bold text-slate-200 mb-1 md:text-6xl">
