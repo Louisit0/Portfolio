@@ -4,7 +4,7 @@ import {
   BsLinkedin,
   BsInstagram,
   BsTwitter,
-  BsFillEnvelopeOpenFill,
+  BsFillEnvelopeFill,
   BsFillPinFill,
 } from "react-icons/bs";
 
@@ -12,27 +12,28 @@ const Contact = () => {
   return (
     <section id="Contact" className="flex flex-col md:w-1/2 mx-auto pb-5">
       <div className="flex flex-row">
-        <h2 className="text-warning mt-auto mr-2">03.</h2>
-        <h2 className="text-2xl text-slate-200 font-bold border-b border-warning">
-          Contact
-        </h2>
+        <h2 className="text-2xl text-slate-200 font-bold">Contact</h2>
       </div>
       <div className="md:mx-0 mb-16">
         <h3 className="text-xl font-bold text-slate-200 md:text-xl my-4">
           Don't be shy! Get in touch! 👇
         </h3>
-        <div className="flex flex-row items-center mx-auto mt-5">
-          <BsFillEnvelopeOpenFill size="2rem" />
-          <div className="flex flex-col">
-            <h3 className="ml-4 font-bold">Mail</h3>
-            <p className="ml-4">Lrangarita7@gmail.com</p>
+        <div className="grid grid-cols-2 gap-3 mt-5 ">
+          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
+            <BsFillEnvelopeFill size="1.2rem" />
+            <h3 className="ml-2">Mail</h3>
           </div>
-        </div>
-        <div className="flex flex-row items-center mx-auto mt-5">
-          <BsFillPinFill size="2rem" />
-          <div className="flex flex-col">
-            <h3 className="ml-4 font-bold">Location</h3>
-            <p className="ml-4">Buenos Aires, Argentina</p>
+          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
+            <BsLinkedin size="1.2rem" />
+            <h3 className="ml-2">Linkedin</h3>
+          </div>
+          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
+            <BsGithub size="1.2rem" />
+            <h3 className="ml-2">Github</h3>
+          </div>
+          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
+            <BsFillPinFill size="1.2rem" />
+            <h3 className="ml-2">Buenos Aires</h3>
           </div>
         </div>
       </div>
