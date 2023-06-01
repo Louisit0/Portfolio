@@ -1,5 +1,6 @@
 import React from "react";
 import { BsLinkedin, BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
+import imgg from "../assets/img/imgg.png";
 import "../utilities.css";
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
         <li>
           <figure>
             <img
-              src="https://cdn.dribbble.com/userupload/3228936/file/original-b15243b97341f9b30d2d5a4288891d99.png?compress=1&resize=450x338&vertical=top"
+              src={imgg}
               alt="prj"
               className="object-cover h-full border-2 border-white rounded-3xl"
             />
@@ -44,7 +45,39 @@ const Projects = () => {
         <li>
           <figure>
             <img
-              src="https://cdn.dribbble.com/userupload/3228936/file/original-b15243b97341f9b30d2d5a4288891d99.png?compress=1&resize=450x338&vertical=top"
+              src={imgg}
+              alt="prj"
+              className="object-cover h-full rounded-3xl"
+            />
+          </figure>
+          <div className="flex flex-col gap-6 py-6 px-2">
+            <h2 className="card-title font-bold">Dashboard</h2>
+
+            <p className="md:w-4/5">
+              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
+              and more. Available on app store.
+            </p>
+            <ul className="flex flex-row  font-extralight text-sm">
+              <li>React.js</li>
+              <li className="mx-4">Tailwind CSS</li>
+              <li>Firebase</li>
+            </ul>
+            <div className="flex flex-row w-full">
+              <BsGithub
+                className="mr-4 my-auto hover:fill-warning"
+                size="1.5rem"
+              />
+              <BsBoxArrowUpRight
+                className="my-auto hover:fill-warning"
+                size="1.2rem"
+              />
+            </div>
+          </div>
+        </li>
+        <li>
+          <figure>
+            <img
+              src={imgg}
               alt="prj"
               className="object-cover h-full border-2 border-white rounded-3xl"
             />
@@ -76,39 +109,7 @@ const Projects = () => {
         <li>
           <figure>
             <img
-              src="https://cdn.dribbble.com/userupload/3228936/file/original-b15243b97341f9b30d2d5a4288891d99.png?compress=1&resize=450x338&vertical=top"
-              alt="prj"
-              className="object-cover h-full border-2 border-white rounded-3xl"
-            />
-          </figure>
-          <div className="flex flex-col gap-6 py-6 px-2">
-            <h2 className="card-title font-bold">Dashboard</h2>
-
-            <p className="md:w-4/5">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-              and more. Available on app store.
-            </p>
-            <ul className="flex flex-row  font-extralight text-sm">
-              <li>React.js</li>
-              <li className="mx-4">Tailwind CSS</li>
-              <li>Firebase</li>
-            </ul>
-            <div className="flex flex-row w-full">
-              <BsGithub
-                className="mr-4 my-auto hover:fill-warning"
-                size="1.5rem"
-              />
-              <BsBoxArrowUpRight
-                className="my-auto hover:fill-warning"
-                size="1.2rem"
-              />
-            </div>
-          </div>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="https://cdn.dribbble.com/userupload/4491896/file/original-f10438bc7a8b130d6ab49e38afeee4b7.png?compress=1&resize=450x338&vertical=top"
+              src={imgg}
               alt="prj"
               className="object-cover h-full border-2 border-white rounded-3xl"
             />
