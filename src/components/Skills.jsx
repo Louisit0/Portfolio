@@ -1,9 +1,3 @@
-import React from "react";
-import html5 from "../assets/img/html5.svg";
-import css3 from "../assets/img/css3.svg";
-import javascript from "../assets/img/javascript.svg";
-import react from "../assets/img/react.svg";
-import tailwind from "../assets/img/tailwind.svg";
 import {
   SiHtml5,
   SiCss3,
