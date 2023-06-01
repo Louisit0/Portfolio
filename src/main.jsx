@@ -3,12 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Index from "./pages/Index";
-import Projects from "./components/Projects";
+import Layout from "./components/Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Index />,
+    element: <Layout />,
+    children: [
+      {
+        // Aca renderea lo que quieras ver en el index.
+        index: true,
+        element: <Index />,
+      },
+    ],
   },
 ]);
 
