@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const Nav = ({ togglerDrawer, drawerOpen }) => {
   return (
     <nav
-      className="flex flex-col lg:flex-row justify-between fixed top-0 w-full py-4 z-50"
+      className="flex flex-col lg:flex-row fixed top-0 w-full py-4 z-50"
       style={{ backgroundColor: "#121212" }}
     >
-      <div className="flex flex-row justify-between lg:justify-evenly w-full lg:mx-auto">
+      <div className="flex flex-row justify-between items-center h-full w-full max-w-5xl lg:mx-auto">
         <Link to={"/"} className="text-2xl my-auto mx-4 font-bold">
           <span className="text-white">Portfolio</span>
         </Link>
@@ -30,7 +30,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
           </svg>
         </label>
-        <div className="hidden lg:flex flex-row items-center justify-between w-2/5">
+        <div className="hidden lg:flex flex-row items-center justify-between w-3/5">
           <a
             onClick={togglerDrawer}
             className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
