@@ -5,27 +5,28 @@ import "../utilities.css";
 
 const Projects = () => {
   return (
-    <section id="Projects" className="flex flex-col md:w-1/2 mx-auto">
+    <section id="Projects" className="flex flex-col mx-auto">
       <div className="flex flex-row mb-10">
         <h2 className="text-2xl text-slate-200 font-bold">Projects</h2>
       </div>
-      <ul className="grid grid-cols-1 md:justify-evenly gap-y-6 md:gap-y-20">
+      <ul className="flex flex-wrap gap-y-20">
         <li className="md:flex md:flex-row md:justify-between">
           <figure className="md:w-1/2">
             <img
               src={imgg}
               alt="prj"
-              className="object-cover h-full border-2 border-white rounded-3xl"
+              className="object-cover h-full rounded-3xl"
             />
           </figure>
-          <span className="mx-2"></span>
-          <div className="flex flex-col gap-6 md:w-1/2">
+          <div className="flex flex-col gap-6 md:max-w-sm mt-6 sm:mt-0">
             <h2 className="card-title font-bold">Dashboard</h2>
-            <p>
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-              and more. Available on app store.
+            <p className="my-auto">
+              Get up and running within minutes. Just install the starter, add
+              your content, deploy it, and there you go! This starter works
+              seamlessly with hosts like Netlify. Photo by Clément H on
+              Unsplash.
             </p>
-            <ul className="flex flex-row  font-extralight text-sm">
+            <ul className="flex flex-row font-extralight text-sm mt-auto">
               <li>React.js</li>
               <li className="mx-4">Tailwind CSS</li>
               <li>Firebase</li>
@@ -43,14 +44,15 @@ const Projects = () => {
           </div>
         </li>
         <li className="flex flex-col-reverse md:flex-row md:justify-between">
-          <div className="flex flex-col gap-6 md:w-1/2">
+          <div className="flex flex-col gap-6 md:max-w-sm mt-6 sm:mt-0">
             <h2 className="card-title font-bold">Dashboard</h2>
-
-            <p>
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-              and more. Available on app store.
+            <p className="my-auto">
+              Get up and running within minutes. Just install the starter, add
+              your content, deploy it, and there you go! This starter works
+              seamlessly with hosts like Netlify. Photo by Clément H on
+              Unsplash.
             </p>
-            <ul className="flex flex-row  font-extralight text-sm">
+            <ul className="flex flex-row  font-extralight text-sm mt-auto">
               <li>React.js</li>
               <li className="mx-4">Tailwind CSS</li>
               <li>Firebase</li>
@@ -66,12 +68,11 @@ const Projects = () => {
               />
             </div>
           </div>
-          <span className="mx-2"></span>
           <figure className="md:w-1/2">
             <img
               src={imgg}
               alt="prj"
-              className="object-cover h-full border-2 border-white rounded-3xl"
+              className="object-cover h-full rounded-3xl"
             />
           </figure>
         </li>
