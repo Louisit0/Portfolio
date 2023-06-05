@@ -8,7 +8,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
     >
       <div className="flex flex-row justify-between items-center h-full w-full max-w-4xl lg:mx-auto">
         <Link to={"/"} className="text-2xl my-auto ml-8 sm:ml-0 font-bold">
-          <span className="text-white">Portfolio</span>
+          <span className="text-white text-2xl md:text-3xl">Portfolio</span>
         </Link>
         <label className="swap swap-rotate mr-4 lg:hidden">
           {/* this hidden checkbox controls the state  */}
@@ -33,35 +33,35 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
         <div className="hidden lg:flex flex-row items-center justify-between w-3/5">
           <a
             onClick={togglerDrawer}
-            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all text-white font-bold"
             href="#Home"
           >
             Home
           </a>
           <a
             onClick={togglerDrawer}
-            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all text-white font-bold"
             href="#About"
           >
             About
           </a>
           <a
             onClick={togglerDrawer}
-            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all text-white font-bold"
             href="#Projects"
           >
             Projects
           </a>
           <a
             onClick={togglerDrawer}
-            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all"
+            className=" select-none cursor-pointer hover:text-warning active:text-warning transition-all text-white font-bold"
             href="#Contact"
           >
             Contact
           </a>
           <a
             href="#"
-            className="px-3 py-1 border-2 border-white text-white rounded-2xl hover:text-black hover:bg-white"
+            className="px-4 py-2 border-2 border-white font-bold text-white rounded-2xl hover:text-black hover:bg-white"
           >
             Curriculum
           </a>

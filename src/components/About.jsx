@@ -4,18 +4,18 @@ const About = () => {
   return (
     <section id="About" className="flex flex-col mx-auto mb-36 ">
       <div className="flex flex-row w-1/2 mb-10 sm:mb-0 ">
-        <h2 className="text-2xl text-slate-200 font-bold">About me</h2>
+        <h2 className="text-2xl text-white font-bold">About me</h2>
       </div>
       <div className="md:flex md:flex-row flex flex-col-reverse">
         <div className="md:w-3/5 md:order-1 md:text-lg flex flex-col justify-center">
-          <p className="md:text-lg my-auto">
+          <p className="md:text-lg my-auto text-slate-200">
             I am a junior frontend developer with knowledge of HTML, CSS,
             JavaScript, React, and Razor C#. I excel at working in teams and
             helping out whenever possible. I value feedback and strive for
             personal growth. I am self-taught and currently studying to become a
             systems analyst.
           </p>
-          <p className="md:text-lg my-auto">
+          <p className="md:text-lg my-auto text-slate-200">
             I am a junior frontend developer with knowledge of HTML, CSS,
             JavaScript, React, and Razor C#. I excel at working in teams and
             helping out whenever possible. I value feedback and strive for
@@ -31,7 +31,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-between md:gap-6 gap-2 my-6 md:w-3/5">
+      <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-between md:gap-6 gap-2 my-6 md:w-3/5 text-slate-200">
         <p>🎵 Música</p>
         <p>🎮 Videojuegos</p>
         <p>👨‍💻 Programar</p>
