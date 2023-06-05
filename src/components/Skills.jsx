@@ -11,7 +11,7 @@ import {
 
 const Skills = () => {
   return (
-    <div className="flex flex-col mb-20 md:w-1/2 mx-auto">
+    <div className="flex flex-col mb-20 ">
       <div className="flex flex-row mb-10">
         <h2 className="ml-2 text-2xl text-slate-200 font-bold">Tech stack</h2>
       </div>
