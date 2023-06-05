@@ -6,8 +6,8 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
       className="flex flex-col lg:flex-row fixed top-0 w-full py-4 z-50"
       style={{ backgroundColor: "#121212" }}
     >
-      <div className="flex flex-row justify-between items-center h-full w-full max-w-5xl lg:mx-auto">
-        <Link to={"/"} className="text-2xl my-auto mx-4 font-bold">
+      <div className="flex flex-row justify-between items-center h-full w-full max-w-4xl lg:mx-auto">
+        <Link to={"/"} className="text-2xl my-auto ml-8 sm:ml-0 font-bold">
           <span className="text-white">Portfolio</span>
         </Link>
         <label className="swap swap-rotate mr-4 lg:hidden">
@@ -21,7 +21,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
 
           {/* hamburger icon */}
           <svg
-            className="fill-current text-white"
+            className="fill-current text-white mr-2 sm:mr-0"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
