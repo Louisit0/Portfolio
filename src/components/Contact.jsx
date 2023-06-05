@@ -10,7 +10,7 @@ import {
 
 const Contact = () => {
   return (
-    <section id="Contact" className="flex flex-col md:w-1/2 mx-auto pb-5">
+    <section id="Contact" className="flex flex-col pb-5">
       <div className="flex flex-row">
         <h2 className="text-2xl text-slate-200 font-bold">Contact</h2>
       </div>
