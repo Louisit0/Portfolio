@@ -14,13 +14,13 @@ export const Layout = () => {
         <header>
           <Nav />
         </header>
-        <main className="flex flex-col w-full pb-4 px-8">
+        <main className="flex flex-col w-full pb-4 max-w-4xl mx-auto px-8 sm:px-0">
           <HomeCover />
           <About />
           <Skills />
           <Projects />
         </main>
-        <footer className="px-8">
+        <footer className="px-8 sm:px-0 max-w-4xl mx-auto w-full">
           <Contact />
         </footer>
       </div>
