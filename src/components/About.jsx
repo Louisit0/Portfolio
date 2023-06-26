@@ -8,14 +8,14 @@ const About = () => {
       </div>
       <div className="md:flex md:flex-row flex flex-col-reverse">
         <div className="md:w-3/5 md:order-1 md:text-lg flex flex-col justify-center">
-          <p className="md:text-lg my-auto text-slate-200">
+          <p className="md:text-lg my-auto text-gray-300">
             I am a junior frontend developer with knowledge of HTML, CSS,
             JavaScript, React, and Razor C#. I excel at working in teams and
             helping out whenever possible. I value feedback and strive for
             personal growth. I am self-taught and currently studying to become a
             systems analyst.
           </p>
-          <p className="md:text-lg my-auto text-slate-200">
+          <p className="md:text-lg my-auto text-gray-300">
             I am a junior frontend developer with knowledge of HTML, CSS,
             JavaScript, React, and Razor C#. I excel at working in teams and
             helping out whenever possible. I value feedback and strive for
@@ -31,7 +31,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-between md:gap-6 gap-2 my-6 md:w-3/5 text-slate-200">
+      <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-between md:gap-6 gap-2 my-6 md:w-3/5 text-gray-300">
         <p>🎵 Música</p>
         <p>🎮 Videojuegos</p>
         <p>👨‍💻 Programar</p>

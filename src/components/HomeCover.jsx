@@ -18,7 +18,7 @@ const HomeCover = () => {
       <h3 className="text-4xl font-bold md:text-5xl text-slate-200">
         Frontend React Developer
       </h3>
-      <p className="text-base mt-6 md:text-lg md:w-1/2 text-slate-200">
+      <p className="text-base mt-6 md:text-lg md:w-1/2 text-gray-300">
         I’m a enthusiast Front-end React Developer jr based in Buenos Aires,
         Argentina. 📍
       </p>

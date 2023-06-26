@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id="Projects" className="flex flex-col mx-auto">
       <div className="flex flex-row mb-10">
-        <h2 className="text-2xl text-slate-200 font-bold">Projects</h2>
+        <h2 className="text-2xl text-white font-bold">Projects</h2>
       </div>
       <ul className="flex flex-wrap gap-y-20 md:gap-y-40">
         <li className="md:flex md:flex-row md:justify-between">
@@ -20,13 +20,13 @@ const Projects = () => {
           </figure>
           <div className="flex flex-col gap-6 md:max-w-sm mt-6 sm:mt-0">
             <h2 className="card-title font-bold text-white">Dashboard</h2>
-            <p className="my-auto text-slate-200">
+            <p className="my-auto text-gray-300">
               Get up and running within minutes. Just install the starter, add
               your content, deploy it, and there you go! This starter works
               seamlessly with hosts like Netlify. Photo by Clément H on
               Unsplash.
             </p>
-            <ul className="flex flex-row font-extralight text-sm mt-auto text-slate-200">
+            <ul className="flex flex-row text-sm mt-auto text-gray-300">
               <li>React.js</li>
               <li className="mx-4">Tailwind CSS</li>
               <li>Firebase</li>
@@ -46,13 +46,13 @@ const Projects = () => {
         <li className="flex flex-col-reverse md:flex-row md:justify-between">
           <div className="flex flex-col gap-6 md:max-w-sm mt-6 sm:mt-0">
             <h2 className="card-title font-bold text-white">Dashboard</h2>
-            <p className="my-auto text-slate-200">
+            <p className="my-auto text-gray-300">
               Get up and running within minutes. Just install the starter, add
               your content, deploy it, and there you go! This starter works
               seamlessly with hosts like Netlify. Photo by Clément H on
               Unsplash.
             </p>
-            <ul className="flex flex-row  font-extralight text-sm mt-auto text-slate-200">
+            <ul className="flex flex-row text-sm mt-auto text-gray-300">
               <li>React.js</li>
               <li className="mx-4">Tailwind CSS</li>
               <li>Firebase</li>
