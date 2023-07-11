@@ -18,3 +18,11 @@ body {
 #Contact {
   scroll-margin-top: 100px;
 }
+
+p {
+  max-width: 75ch;
+}
+
+.h-screen-luis {
+  height: calc(100vh - 60px);
+}
