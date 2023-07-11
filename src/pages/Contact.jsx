@@ -10,10 +10,7 @@ import {
 
 const Contact = () => {
   return (
-    <section id="Contact" className="flex flex-col pb-5">
-      <div className="flex flex-row">
-        <h2 className="text-2xl  font-bold">Contact</h2>
-      </div>
+    <section id="Contact" className="flex flex-col h-screen-luis">
       <div className="md:mx-0 mb-16 ">
         <h3 className="text-xl font-bold md:text-xl my-4">
           Don't be shy! Get in touch! 👇
