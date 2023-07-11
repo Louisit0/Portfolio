@@ -10,14 +10,15 @@ import { Route, Switch } from "wouter";
 export const Layout = () => {
   return (
     // <UserContext.Provider value={user}>
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <header>
         <Nav />
       </header>
-      <main className="flex flex-col w-full max-w-4xl mx-auto px-8 sm:px-0">
+      <main className="flex flex-col max-w-4xl mx-auto px-8 sm:px-0">
         <Switch>
           <Route path="/" component={HomeCover} />
           <Route path="/about" component={About} />
+          <Route path="/techStack" component={Skills} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Projects} />
         </Switch>

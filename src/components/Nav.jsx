@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Nav = ({ togglerDrawer, drawerOpen }) => {
   return (
-    <nav className="flex flex-col fixed lg:flex-row w-full py-4">
+    <nav className="flex flex-col lg:flex-row w-full py-4">
       <div className="flex flex-row justify-between items-center h-full w-full max-w-4xl lg:mx-auto">
         <Link
           to="/"
@@ -37,10 +37,10 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             className=" select-none cursor-pointer transition-all  font-bold"
             href="#About"
           >
-            About
+            About me
           </Link>
           <Link
-            to="/about"
+            to="/projects"
             onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
             href="#About"
@@ -48,7 +48,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             Projects
           </Link>
           <Link
-            to="/about"
+            to="/contact"
             onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
             href="#About"
@@ -56,12 +56,20 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
             Contact
           </Link>
           <Link
-            to="/about"
+            to="/techStack"
             onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
             href="#About"
           >
-            Curriculum
+            Tech stack
+          </Link>
+          <Link
+            to="/curriculum"
+            onClick={togglerDrawer}
+            className=" select-none cursor-pointer transition-all  font-bold"
+            href="#About"
+          >
+            CV
           </Link>
         </div>
       </div>
