@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Nav from "../components/Nav";
-import HomeCover from "../components/HomeCover";
-import About from "../components/About";
+import HomeCover from "./HomeCover";
+import About from "./About";
 import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 const Index = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -104,7 +104,7 @@ const Index = () => {
             </li>
             <a
               href="#"
-              className="btn btn-outline text-white hover:bg-white w-1/2 mx-auto mt-10"
+              className="btn btn-outline  hover:bg-white w-1/2 mx-auto mt-10"
             >
               Resume
             </a>
