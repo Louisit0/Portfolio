@@ -9,7 +9,7 @@ const HomeCover = () => {
         id="Home"
         className="flex flex-col justify-center text-base-content text-center mx-auto"
       >
-        <img src={gifGato} alt="gato" className="h-32 w-42 mx-auto my-4" />
+        {/* <img src={gifGato} alt="gato" className="h-32 w-42 mx-auto my-4" /> */}
         <div className="flex flex-row">
           <span className="title-home text-4xl md:text-8xl">Hi, i'm Luis.</span>
         </div>

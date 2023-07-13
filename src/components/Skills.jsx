@@ -12,6 +12,9 @@ import {
 const Skills = () => {
   return (
     <div className="flex flex-col justify-center text-base-content text-center mx-auto h-screen-luis ">
+      <h3 className="text-start text-5xl font-extrabold mb-8">
+        My tech stack.
+      </h3>
       <ul className="grid grid-cols-2 xl:grid-cols-4 gap-4">
         <li className="flex flex-row border-2 border-black rounded-2xl p-2">
           <SiHtml5 size="1.3rem" className="self-center" />

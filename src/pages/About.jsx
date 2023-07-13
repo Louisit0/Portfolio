@@ -13,12 +13,13 @@ const About = () => {
           className="h-64 w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 rounded-full"
         />
         <div className="flex flex-col items-center">
-          <p className="mt-8 text-start text-xl leading-8 md:text-center md:w-4/5 lg:my-auto">
+          <h3 className="text-5xl font-extrabold mb-8">About.</h3>
+          <p className="mt-8 text-start text-lg leading-8 md:text-center md:w-4/5 lg:my-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
             enim libero minima rerum sapiente illo?
           </p>
           <br />
-          <p className="mt-8 text-start text-xl leading-8 md:text-center md:w-4/5 lg:my-auto">
+          <p className="mt-8 text-start text-lg leading-8 md:text-center md:w-4/5 lg:my-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
             enim libero minima rerum sapiente illo?
           </p>

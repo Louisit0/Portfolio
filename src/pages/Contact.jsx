@@ -6,12 +6,12 @@ const Contact = () => {
       id="Contact"
       className="flex flex-col justify-center text-base-content h-screen-luis"
     >
-      <h3 className="text-5xl font-extrabold">Contact.</h3>
-      <p className="my-6">
-        Get in touch or shoot me an email directly on{" "}
+      <h3 className="text-5xl font-extrabold">Get in touch.</h3>
+      <p className="my-6 text-lg">
+        Or shoot me an email directly on{" "}
         <span className="font-extrabold">lrangarita7@gmail.com</span>
       </p>
-      <form action="">
+      <form action="POST">
         <div className="flex flex-col gap-8">
           <input
             type="text"
@@ -28,7 +28,7 @@ const Contact = () => {
             className="px-5 pt-2 pb-20 rounded-md bg-white border border-black"
             placeholder="Message"
           />
-          <button className="p-4 bg-gray-700 rounded-md w-1/3">
+          <button className="p-4 bg-black rounded-md w-1/3 text-white">
             Send Message
           </button>
         </div>

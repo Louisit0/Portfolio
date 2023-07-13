@@ -1,5 +1,4 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 import paisaje from "../assets/img/imgg.png";
 import turisme from "../assets/img/turisme.jpg";
 import "../utilities.css";
@@ -10,6 +9,7 @@ const Projects = () => {
       id="About"
       className="flex flex-col justify-center text-base-content text-center mx-auto mt-20 mb-8"
     >
+      <h3 className="text-start text-5xl font-extrabold mb-8">My work.</h3>
       <div className="grid grid-cols-2 justify-evenly gap-6">
         <div className="w-full cursor-pointer">
           <div className="relative group">
