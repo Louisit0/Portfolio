@@ -2,18 +2,37 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Index from "./pages/Index";
-import Layout from "./components/Layout";
+import About from "./pages/About";
+import Skills from "./components/Skills";
+import Contact from "./pages/Contact";
+import HomeCover from "./pages/HomeCover";
+import Projects from "./pages/Projects";
+import Root from "./routes/root";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <Root />,
     children: [
       {
-        // Aca renderea lo que quieras ver en el index.
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/techStack",
+        element: <Skills />,
+      },
+      {
         index: true,
-        element: <Index />,
+        element: <HomeCover />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
     ],
   },
