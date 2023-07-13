@@ -12,12 +12,17 @@ const About = () => {
           alt="perfil"
           className="h-64 w-64 md:h-72 md:w-72 lg:h-80 lg:w-80 rounded-full"
         />
-        <p className="mt-8 lg:my-auto text-start md:text-center md:w-1/2">
-          A self-taught Software Engineer with experience working back-end for
-          the automotive and manufacturing industries. Recently, I started my
-          journey learning front-end development & discovered a fascination for
-          CSS Art.
-        </p>
+        <div className="flex flex-col items-center">
+          <p className="mt-8 text-start text-xl leading-8 md:text-center md:w-4/5 lg:my-auto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+            enim libero minima rerum sapiente illo?
+          </p>
+          <br />
+          <p className="mt-8 text-start text-xl leading-8 md:text-center md:w-4/5 lg:my-auto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+            enim libero minima rerum sapiente illo?
+          </p>
+        </div>
       </div>
     </section>
   );
