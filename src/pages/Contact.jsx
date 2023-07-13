@@ -1,10 +1,8 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <section
       id="Contact"
-      className="flex flex-col justify-center text-base-content h-screen-luis"
+      className="flex flex-col justify-center text-base-content text-start mx-auto h-screen-custom"
     >
       <h3 className="text-5xl font-extrabold">Get in touch.</h3>
       <p className="my-6 text-lg">
