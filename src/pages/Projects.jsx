@@ -1,5 +1,4 @@
 import React from "react";
-import paisaje from "../assets/img/imgg.png";
 import turisme from "../assets/img/turisme.jpg";
 import pokedex from "../assets/img/pokedex.png";
 import coderhouse from "../assets/img/coderhousejs.jpg";
@@ -11,7 +10,9 @@ const Projects = () => {
       id="About"
       className="flex flex-col text-base-content text-center mx-6 md:mx-8 lg:mx-0 mb-6"
     >
-      <h3 className="text-start text-5xl font-extrabold mt-5 mb-8">My work.</h3>
+      <h3 className="text-start text-4xl md:text-5xl font-extrabold mt-5 mb-8">
+        My work.
+      </h3>
       <div className="grid md:grid-cols-2 md:justify-evenly gap-6 w-80 md:w-full">
         <div className="w-80 md:96 md:w-full cursor-pointer">
           <div className="relative group">
