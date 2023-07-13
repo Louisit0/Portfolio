@@ -23,7 +23,7 @@ p {
   max-width: 75ch;
 }
 
-.h-screen-luis {
+.h-screen-custom {
   height: calc(100vh - 60px);
 }
 
@@ -47,4 +47,8 @@ p {
   50% {
     border-color: transparent;
   }
+}
+
+.mt-60-px {
+  margin-top: 60px;
 }
