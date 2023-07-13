@@ -1,36 +1,38 @@
 import React from "react";
-import {
-  BsGithub,
-  BsLinkedin,
-  BsInstagram,
-  BsTwitter,
-  BsFillEnvelopeFill,
-  BsFillPinFill,
-} from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section id="Contact" className="flex flex-col h-screen-luis">
-      <div className="md:mx-0 mb-16 ">
-        <h3 className="text-xl font-bold md:text-xl my-4">
-          Don't be shy! Get in touch! 👇
-        </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-5 ">
-          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
-            <BsFillEnvelopeFill size="1.2rem" className="self-center" />
-            <h3 className="ml-2">Mail</h3>
-          </div>
-          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
-            <BsLinkedin size="1.2rem" className="self-center" />
-            <h3 className="ml-2">Linkedin</h3>
-          </div>
-          <div className="flex flex-row justify-center py-2 border-2 border-white rounded-2xl">
-            <BsGithub size="1.2rem" className="self-center" />
-            <h3 className="ml-2">Github</h3>
-          </div>
+    <section
+      id="Contact"
+      className="flex flex-col justify-center text-base-content h-screen-luis"
+    >
+      <h3 className="text-5xl font-extrabold">Contact.</h3>
+      <p className="my-6">
+        Get in touch or shoot me an email directly on{" "}
+        <span className="font-extrabold">lrangarita7@gmail.com</span>
+      </p>
+      <form action="">
+        <div className="flex flex-col gap-8">
+          <input
+            type="text"
+            className="px-5 p-3 rounded-md bg-white border border-black"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            className="px-5 p-3 rounded-md bg-white border border-black"
+            placeholder="Email"
+          />
+          <textarea
+            type="text"
+            className="px-5 pt-2 pb-20 rounded-md bg-white border border-black"
+            placeholder="Message"
+          />
+          <button className="p-4 bg-gray-700 rounded-md w-1/3">
+            Send Message
+          </button>
         </div>
-      </div>
-      <p className="mt-8 text-center text-sm ">Made by Luis Ramirez 🙌</p>
+      </form>
     </section>
   );
 };
