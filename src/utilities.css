@@ -27,6 +27,12 @@ p {
   height: calc(100vh - 60px);
 }
 
+@media (max-width: 576px) {
+  .h-screen-custom {
+    height: calc(100vh - 64px);
+  }
+}
+
 .title-home {
   display: block;
   font-family: monospace;
