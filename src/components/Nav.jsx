@@ -30,14 +30,12 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
         <div className="hidden lg:flex flex-row items-center justify-between w-3/5">
           <Link
             to={"/about"}
-            onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all font-bold"
           >
             About me
           </Link>
           <Link
             to={"/techStack"}
-            onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all font-bold"
             href="#About"
           >
@@ -45,7 +43,6 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
           </Link>
           <Link
             to={"/projects"}
-            onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
           >
             Projects
@@ -53,7 +50,6 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
 
           <Link
             to={"/contact"}
-            onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
           >
             Contact
@@ -61,7 +57,6 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
 
           <Link
             to={"/curriculum"}
-            onClick={togglerDrawer}
             className=" select-none cursor-pointer transition-all  font-bold"
           >
             CV
