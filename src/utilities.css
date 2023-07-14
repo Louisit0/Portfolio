@@ -52,3 +52,11 @@ p {
 .mt-60-px {
   margin-top: 60px;
 }
+
+.h-nav-screen {
+  height: 7vh;
+}
+
+.h-main-screen {
+  height: 93vh;
+}
