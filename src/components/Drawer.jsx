@@ -50,9 +50,6 @@ const Drawer = ({ drawerOpen, togglerDrawer }) => {
           </Link>
         </div>
       </div>
-      <div className="drawer-side">
-        <label htmlFor="my-drawer" className="drawer-overlay"></label>
-      </div>
     </div>
   );
 };

@@ -94,6 +94,15 @@ export const Root = () => {
           </li>
           <li className="w-full flex">
             <Link
+              to={"/contact"}
+              onClick={togglerDrawer}
+              className="py-3 px-4 rounded-lg hover:bg-black hover:text-white transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center"
+            >
+              Contact
+            </Link>
+          </li>
+          <li className="w-full flex">
+            <Link
               to={"/"}
               onClick={togglerDrawer}
               className="py-3 px-4 rounded-lg hover:bg-black hover:text-white transition duration-300 ease-in-out select-none cursor-pointer mx-auto w-full text-center"
