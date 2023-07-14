@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="About"
-      className="flex flex-col  text-center mx-6 md:mx-8 lg:mx-0 mb-6"
+      className="flex flex-col text-center mx-6 md:mx-8 lg:mx-0 mb-6"
     >
       <h3 className="text-start text-4xl md:text-5xl font-extrabold mt-5 mb-8">
         My work.

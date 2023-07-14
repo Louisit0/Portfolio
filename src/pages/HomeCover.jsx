@@ -2,7 +2,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const HomeCover = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen-custom">
+    <div className="flex flex-col justify-center items-center h-main-screen">
       <section
         id="Home"
         className="flex flex-col justify-center  text-center mx-auto"

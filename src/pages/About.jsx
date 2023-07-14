@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="About"
-      className="flex flex-col md:justify-center text-center h-screen-custom"
+      className="flex flex-col md:justify-center text-center h-main-screen"
     >
       <div className="flex flex-col items-center lg:flex-row justify-evenly mt-5 sm:mt-0">
         <img
