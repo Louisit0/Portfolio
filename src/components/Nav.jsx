@@ -4,7 +4,7 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
   return (
     <nav className="flex flex-col lg:flex-row w-full py-4 h-nav-screen">
       <div className="flex flex-row justify-between items-center h-full w-full max-w-4xl lg:mx-auto">
-        <Link to="/" className="my-auto font-bold text-xl ml-8 lg:ml-0">
+        <Link to="/" className="font-bold text-xl ml-8 lg:ml-0">
           @louisit0
         </Link>
         <label className="swap swap-rotate mr-4 lg:hidden">
