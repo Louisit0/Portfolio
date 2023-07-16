@@ -1,10 +1,15 @@
-import React from "react";
+import { useContext } from "react";
 import turisme from "../assets/img/turisme.jpg";
 import pokedex from "../assets/img/pokedex.png";
 import coderhouse from "../assets/img/coderhousejs.jpg";
+import { TogglerDrawerContext } from "../routes/root";
 import "../utilities.css";
 
 const Projects = () => {
+  const togglerDrawer = useContext(TogglerDrawerContext);
+  const handleButtonClick = () => {
+    togglerDrawer(); // Ejecutar la función togglerDrawer
+  };
   return (
     <section
       id="About"
@@ -14,7 +19,10 @@ const Projects = () => {
         My work.
       </h3>
       <div className="grid md:grid-cols-2 md:justify-evenly gap-6 w-80 md:w-full">
-        <div className="w-80 md:96 md:w-full cursor-pointer">
+        <div
+          className="w-80 md:96 md:w-full cursor-pointer"
+          onClick={togglerDrawer}
+        >
           <div className="relative group">
             <img
               src={coderhouse}
@@ -49,7 +57,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 md:96 md:w-full cursor-pointer">
+        <div
+          className="w-80 md:96 md:w-full cursor-pointer"
+          onClick={togglerDrawer}
+        >
           <div className="relative group">
             <img
               src={pokedex}
@@ -84,7 +95,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 md:96 md:w-full cursor-pointer">
+        <div
+          className="w-80 md:96 md:w-full cursor-pointer"
+          onClick={togglerDrawer}
+        >
           <div className="relative group">
             <img
               src={pokedex}
@@ -119,7 +133,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 md:96 md:w-full cursor-pointer">
+        <div
+          className="w-80 md:96 md:w-full cursor-pointer"
+          onClick={togglerDrawer}
+        >
           <div className="relative group">
             <img
               src={turisme}

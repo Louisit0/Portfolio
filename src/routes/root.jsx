@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useState, createContext } from "react";
 import { Link, Outlet } from "react-router-dom";
 import Nav from "../components/Nav";
 import Drawer from "../components/Drawer";
+
+export const TogglerDrawerContext = createContext(null);
 
 export const Root = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const togglerDrawer = () => {
-    if (window.innerWidth >= 768) return;
     setDrawerOpen(!drawerOpen);
     console.log(drawerOpen);
   };
@@ -27,7 +28,9 @@ export const Root = () => {
             <Nav togglerDrawer={togglerDrawer} />
           </header>
           <main className="flex flex-row max-w-4xl mx-auto">
-            <Outlet />
+            <TogglerDrawerContext.Provider value={togglerDrawer}>
+              <Outlet />
+            </TogglerDrawerContext.Provider>
           </main>
           <Drawer drawerOpen={drawerOpen} togglerDrawer={togglerDrawer} />
         </div>
