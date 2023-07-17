@@ -3,7 +3,12 @@ import pokedex from "../assets/img/pokedex.png";
 import coderhouse from "../assets/img/coderhousejs.jpg";
 import "../utilities.css";
 
-const Projects = ({ handleProjectClick }) => {
+const Projects = ({ togglerDrawer, setDrawerContent }) => {
+  const togglerDrawerContent = () => {
+    togglerDrawer();
+    setDrawerContent("projects");
+  };
+
   return (
     <section
       id="About"
@@ -15,7 +20,7 @@ const Projects = ({ handleProjectClick }) => {
       <div className="grid md:grid-cols-2 md:justify-evenly gap-6 w-80 md:w-full">
         <div
           className="w-80 md:96 md:w-full cursor-pointer"
-          onClick={handleProjectClick}
+          onClick={togglerDrawerContent}
         >
           <div className="relative group">
             <img
@@ -53,7 +58,7 @@ const Projects = ({ handleProjectClick }) => {
         </div>
         <div
           className="w-80 md:96 md:w-full cursor-pointer"
-          onClick={handleProjectClick}
+          onClick={togglerDrawerContent}
         >
           <div className="relative group">
             <img
@@ -91,7 +96,7 @@ const Projects = ({ handleProjectClick }) => {
         </div>
         <div
           className="w-80 md:96 md:w-full cursor-pointer"
-          onClick={handleProjectClick}
+          onClick={togglerDrawerContent}
         >
           <div className="relative group">
             <img
@@ -129,7 +134,7 @@ const Projects = ({ handleProjectClick }) => {
         </div>
         <div
           className="w-80 md:96 md:w-full cursor-pointer"
-          onClick={handleProjectClick}
+          onClick={togglerDrawerContent}
         >
           <div className="relative group">
             <img
