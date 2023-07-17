@@ -1,16 +1,20 @@
-import { useState, createContext } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { useState } from "react";
+import { Link, Routes, Route } from "react-router-dom";
 import Nav from "../components/Nav";
+import About from "../pages/About";
+import Skills from "../components/Skills";
+import Contact from "../pages/Contact";
+import HomeCover from "../pages/HomeCover";
+import Projects from "../pages/Projects";
 import Drawer from "../components/Drawer";
 
-export const TogglerDrawerContext = createContext(null);
-
-export const Root = () => {
+export const App = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerContent, setDrawerContent] = useState("navigation");
 
-  const togglerDrawer = () => {
+  const togglerDrawer = (content) => {
     setDrawerOpen(!drawerOpen);
-    console.log(drawerOpen);
+    setDrawerContent(content);
   };
 
   return (
@@ -28,9 +32,16 @@ export const Root = () => {
             <Nav togglerDrawer={togglerDrawer} />
           </header>
           <main className="flex flex-row max-w-4xl mx-auto">
-            <TogglerDrawerContext.Provider value={togglerDrawer}>
-              <Outlet />
-            </TogglerDrawerContext.Provider>
+            <Routes>
+              <Route path="/" element={<HomeCover />}></Route>
+              <Route path="/about" element={<About />}></Route>
+              <Route path="/techStack" element={<Skills />}></Route>
+              <Route
+                path="/projects"
+                element={<Projects handleProjectClick={togglerDrawer} />}
+              ></Route>
+              <Route path="/contact" element={<Contact />}></Route>
+            </Routes>
           </main>
           <Drawer drawerOpen={drawerOpen} togglerDrawer={togglerDrawer} />
         </div>
@@ -119,4 +130,4 @@ export const Root = () => {
   );
 };
 
-export default Root;
+export default App;
