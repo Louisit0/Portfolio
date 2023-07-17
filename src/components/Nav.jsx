@@ -37,7 +37,6 @@ const Nav = ({ togglerDrawer, drawerOpen }) => {
           <Link
             to={"/techStack"}
             className=" select-none cursor-pointer transition-all font-bold"
-            href="#About"
           >
             Tech stack
           </Link>
