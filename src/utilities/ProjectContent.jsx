@@ -4,7 +4,7 @@ import pokedex from "../assets/img/pokedex.png";
 const projectsContent = [
   {
     id: 1,
-    name: "turisme",
+    name: "Turisme",
     description:
       "Es una tienda en línea donde puedes comprar paquetes de viajes, posee sección de paquetes y reseñas, un formulario de contacto y un carrito de compras.",
     summary: "E-commerce para comprar paquetes turisticos.",
