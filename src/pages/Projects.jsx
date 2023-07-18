@@ -9,12 +9,12 @@ const Projects = ({ togglerDrawer }) => {
   return (
     <section
       id="About"
-      className="flex flex-col text-center mx-6 md:mx-8 lg:mx-0 mb-6"
+      className="flex flex-col text-center mx-6 md:mx-8 lg:mx-0"
     >
       <h3 className="text-start text-4xl md:text-5xl font-extrabold mt-5 mb-8">
         My work.
       </h3>
-      <div className="grid md:grid-cols-2 md:justify-evenly gap-6 w-80 md:w-full">
+      <div className="grid md:grid-cols-2 md:justify-evenly gap-6 gap-y-4 w-80 md:w-full pb-6">
         {projectsContent.map((project) => (
           <div
             className="w-80 md:96 md:w-full cursor-pointer"
@@ -25,9 +25,9 @@ const Projects = ({ togglerDrawer }) => {
               <img
                 src={project.image}
                 alt={project.name}
-                className="rounded-lg h-80 md:h-96 object-cover brightness-100 group-hover:brightness-75"
+                className="rounded-lg h-80 md:h-96 object-cover brightness-75 md:brightness-100 group-hover:brightness-75"
               />
-              <div className="opacity-0 group-hover:opacity-100 absolute mx-4 md:mx-6 bottom-5 flex flex-col transition-opacity duration-300 text-start text-white">
+              <div className="opacity-100 md:opacity-0 group-hover:opacity-100 absolute mx-4 md:mx-6 bottom-5 flex flex-col transition-opacity duration-300 text-start text-white">
                 <h2 className="text-xl font-extrabold title-shadow">
                   {project.name}
                 </h2>
@@ -38,7 +38,7 @@ const Projects = ({ togglerDrawer }) => {
                   {project.technologies.map((technology) => (
                     <div
                       key={technology}
-                      className="bg-zinc-800 py-1 px-2 rounded-xl self-center text-badges"
+                      className="bg-zinc-800 py-1 px-2 rounded-lg self-center text-badges"
                     >
                       {technology}
                     </div>
