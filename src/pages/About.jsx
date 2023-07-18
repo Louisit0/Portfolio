@@ -2,10 +2,7 @@ import avatarl from "../assets/img/avatarl.jpg";
 
 const About = () => {
   return (
-    <section
-      id="About"
-      className="flex flex-col md:justify-center text-center h-main-screen"
-    >
+    <section id="About" className="flex flex-col md:justify-center text-center">
       <div className="flex flex-col items-center lg:flex-row justify-evenly mt-5 sm:mt-0">
         <img
           src={avatarl}

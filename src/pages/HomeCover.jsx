@@ -2,10 +2,10 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const HomeCover = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-main-screen">
+    <div className="flex flex-col justify-center items-center">
       <section
         id="Home"
-        className="flex flex-col justify-center  text-center mx-auto"
+        className="flex flex-col justify-center text-center mx-auto"
       >
         {/* <img src={gifGato} alt="gato" className="h-32 w-42 mx-auto my-4" /> */}
         <div className="flex flex-row justify-center">
