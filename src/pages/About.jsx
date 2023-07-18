@@ -13,11 +13,11 @@ const About = () => {
           <h3 className="text-4xl md:text-5xl font-extrabold lg:mb-4">
             About.
           </h3>
-          <p className="my-4 text-center text-lg leading-8 md:text-center lg:my-auto">
+          <p className="my-4 text-center md:text-lg leading-6 md:leading-8 md:text-center lg:my-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
             enim libero minima rerum sapiente illo?
           </p>
-          <p className="text-center text-lg leading-8 md:text-center lg:my-auto">
+          <p className="text-center md:text-lg leading-6 md:leading-8 md:text-center lg:my-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
             enim libero minima rerum sapiente illo?
           </p>
