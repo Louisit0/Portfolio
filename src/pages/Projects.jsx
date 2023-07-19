@@ -1,5 +1,6 @@
 import projectsContent from "../utilities/ProjectContent";
 import "../utilities.css";
+import { Link } from "react-router-dom";
 
 const Projects = ({ togglerDrawer }) => {
   const togglerDrawerContent = (projectId) => {
@@ -11,7 +12,7 @@ const Projects = ({ togglerDrawer }) => {
       id="About"
       className="flex flex-col text-center mx-6 md:mx-8 lg:mx-0"
     >
-      <h3 className="text-start text-4xl md:text-5xl font-extrabold mt-5 mb-8">
+      <h3 className="text-start text-3xl md:text-5xl font-extrabold mt-5 mb-8">
         My work.
       </h3>
       <div className="grid md:grid-cols-2 md:justify-evenly gap-6 gap-y-4 w-80 md:w-full pb-6">
@@ -48,6 +49,30 @@ const Projects = ({ togglerDrawer }) => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="w-full mt-2 pb-4">
+        <Link
+          to={"/contact"}
+          className=" select-none cursor-pointer transition-all font-bold"
+        >
+          <div className="flex flex-row w-full justify-start">
+            <p className="mr-4 text-sm self-center">Contact</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </div>
+        </Link>
       </div>
     </section>
   );

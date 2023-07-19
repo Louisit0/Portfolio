@@ -8,10 +8,11 @@ import {
   SiTailwindcss,
   SiBootstrap,
 } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center text-center mx-8 md:mx-auto">
+    <div className="flex flex-col justify-center text-center mx-6 md:mx-8 lg:mx-0">
       <h3 className="text-start text-4xl md:text-5xl font-extrabold mb-8">
         My tech stack.
       </h3>
@@ -49,6 +50,30 @@ const Skills = () => {
           <p className=" text-base ml-2"> Postman</p>
         </li>
       </ul>
+      <div className="w-full mt-10 pb-4">
+        <Link
+          to={"/projects"}
+          className=" select-none cursor-pointer transition-all font-bold"
+        >
+          <div className="flex flex-row w-full justify-start">
+            <p className="mr-4 text-sm self-center">Projects</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </div>
+        </Link>
+      </div>
     </div>
   );
 };
