@@ -25,7 +25,7 @@ const Projects = ({ togglerDrawer }) => {
               <img
                 src={project.image}
                 alt={project.name}
-                className="rounded-lg h-80 md:h-96 object-cover brightness-75 md:brightness-100 group-hover:brightness-75"
+                className="rounded-xl h-80 md:h-96 object-cover brightness-75 md:brightness-100 group-hover:brightness-75"
               />
               <div className="opacity-100 md:opacity-0 group-hover:opacity-100 absolute mx-4 md:mx-6 bottom-5 flex flex-col transition-opacity duration-300 text-start text-white">
                 <h2 className="text-xl font-extrabold title-shadow">

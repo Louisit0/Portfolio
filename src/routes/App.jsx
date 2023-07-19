@@ -136,7 +136,7 @@ export const App = () => {
             </li>
           </ul>
         ) : drawerContent === "projects" ? (
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 pt-4 flex flex-col bg-white">
+          <div className="w-full sm:w-1/2 lg:w-1/4 p-4 pt-4 flex flex-col bg-white">
             <div className="w-full flex justify-between py-4 px-6 bg-black text-white fixed top-0 left-0 ">
               <label className="swap swap-rotate flex flex-row">
                 {/* this hidden checkbox controls the state  */}
@@ -181,21 +181,29 @@ export const App = () => {
                 .filter((project) => project.id === selectedProjectId)
                 .map((project) => (
                   <div key={project.id} className="mt-5">
-                    <h2 className="text-base font-bold">{project.name}</h2>
-                    <p className="text-xs mt-2">{project.summary}</p>
+                    <h2 className="text-base md:text-lg font-bold">
+                      {project.name}
+                    </h2>
+                    <p className="text-xs md:text-sm mt-2">{project.summary}</p>
                     <img
-                      className="mt-4 rounded-lg h-80 md:h-80 object-cover"
+                      className="mt-4 rounded-xl h-80 md:h-80 object-cover"
                       src={project.image}
                       alt={project.name}
                     />
-                    <h2 className="font-bold text-sm mt-6">About</h2>
-                    <p className="my-2 text-xs">{project.description}</p>
-                    <h2 className="font-bold text-sm mt-6">Technologies</h2>
+                    <h2 className="font-bold text-sm md:text-base mt-6">
+                      About
+                    </h2>
+                    <p className="my-2 text-xs md:text-sm">
+                      {project.description}
+                    </p>
+                    <h2 className="font-bold text-sm md:text-base mt-6">
+                      Technologies
+                    </h2>
                     <div className="flex flex-row">
                       {project.technologies.map((technology) => (
                         <div
                           key={technology}
-                          className="bg-zinc-800 py-1 px-2 rounded-lg self-center mr-4 text-badges mt-2 text-white"
+                          className="bg-zinc-800 py-1 px-2 rounded-lg self-center mr-4 text-badges mt-2 text-white font-bold"
                         >
                           {technology}
                         </div>
@@ -209,7 +217,7 @@ export const App = () => {
                     <a
                       href={project.demo}
                       target="_blank"
-                      className="text-sky-800 text-xs font-bold"
+                      className="text-sky-800 text-xs font-bold hover:underline"
                     >
                       {project.demo}
                     </a>
@@ -220,7 +228,7 @@ export const App = () => {
                     <a
                       href={project.github}
                       target="_blank"
-                      className="text-sky-800 text-xs font-bold"
+                      className="text-sky-800 text-xs font-bold hover:underline"
                     >
                       {project.github}
                     </a>
