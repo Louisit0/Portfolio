@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="Contact"
-      className="flex flex-col justify-center text-start mx-6 md:mx-8 lg:mx-0"
+      className="flex flex-col text-start mx-6 md:mx-8 lg:mx-0 lg:mt-20"
     >
       <h3 className="text-3xl md:text-5xl font-extrabold mt-5">
         Get in touch.
