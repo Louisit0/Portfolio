@@ -7,7 +7,6 @@ const About = () => {
         <h3 className="text-3xl md:text-5xl font-extrabold lg:mb-4">
           About me.
         </h3>
-
         <div className="mt-10">
           <h5 className="font-extrabold">Experiencia</h5>
           <ol class="relative border-l border-gray-200 dark:border-gray-700">

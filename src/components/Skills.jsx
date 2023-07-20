@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center text-center mx-6 md:mx-8 lg:mx-0">
+    <div className="flex flex-col justify-center mx-auto lg:mx-0">
       <h3 className="text-start text-4xl md:text-5xl font-extrabold mb-8">
         My tech stack.
       </h3>
