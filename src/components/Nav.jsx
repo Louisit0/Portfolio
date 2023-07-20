@@ -7,12 +7,12 @@ const Nav = ({ togglerDrawer, drawerOpen, setDrawerContent }) => {
   };
 
   return (
-    <nav className="flex flex-col lg:flex-row w-full py-4">
-      <div className="flex flex-row justify-between items-center h-full w-full max-w-4xl lg:mx-auto">
-        <Link to="/" className="my-auto font-bold text-xl ml-8 lg:ml-0">
+    <nav className="flex flex-col lg:flex-row w-full py-6 px-8 md:px-16 lg:px-0">
+      <div className="flex flex-row justify-between items-center h-full w-full lg:mx-auto">
+        <Link to="/" className="my-auto font-bold text-xl">
           @louisit0
         </Link>
-        <label className="swap swap-rotate mr-4 lg:hidden">
+        <label className="swap swap-rotate lg:hidden">
           {/* this hidden checkbox controls the state  */}
           <input
             id="my-drawer-4"
@@ -23,7 +23,7 @@ const Nav = ({ togglerDrawer, drawerOpen, setDrawerContent }) => {
 
           {/* hamburger icon */}
           <svg
-            className="fill-current mr-2 sm:mr-0"
+            className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
