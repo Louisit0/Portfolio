@@ -30,14 +30,15 @@ export const App = () => {
         onChange={() => setDrawerOpen(!drawerOpen)}
       />
       <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
-        <div className="flex flex-col">
+        <div className="flex flex-col max-w-4xl mx-auto">
           <header>
             <Nav
               togglerDrawer={togglerDrawer}
               setDrawerContent={setDrawerContent}
             />
           </header>
-          <main className="flex flex-row max-w-4xl mx-auto h-screen-custom">
+          {/* Para que el nav y el main queden alineados quita el siguiente "mx-auto" */}
+          <main className="flex flex-row h-screen-custom mx-auto">
             <Routes>
               <Route path="/" element={<HomeCover />}></Route>
               <Route path="/about" element={<About />}></Route>
