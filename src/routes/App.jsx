@@ -137,7 +137,7 @@ export const App = () => {
             </li>
           </ul>
         ) : drawerContent === "projects" ? (
-          <div className="w-full sm:w-1/2 lg:w-1/4 p-4 pt-4 flex flex-col bg-white">
+          <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 pt-4 flex flex-col bg-white">
             <div className="w-full flex justify-between py-4 px-6 bg-black text-white fixed top-0 left-0 ">
               <label className="swap swap-rotate flex flex-row">
                 {/* this hidden checkbox controls the state  */}

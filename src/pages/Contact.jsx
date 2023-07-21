@@ -7,7 +7,7 @@ const Contact = () => {
       className="flex flex-col justify-center text-start mx-6 md:mx-8 lg:mx-0"
     >
       <div className="flex flex-col mx-2 md:mx-8 lg:mx-0 ">
-        <h3 className="text-3xl md:text-5xl font-extrabold">Get in touch.</h3>
+        <h3 className="text-3xl md:text-4xl font-extrabold">Get in touch.</h3>
         <p className="my-6 text-base md:text-lg">
           Or shoot me an email directly on{" "}
           <span className="font-extrabold">lrangarita7@gmail.com</span>

@@ -12,7 +12,7 @@ const Projects = ({ togglerDrawer }) => {
       id="About"
       className="flex flex-col text-center mx-6 md:mx-8 lg:mx-0"
     >
-      <h3 className="text-start text-3xl md:text-5xl font-extrabold mt-5 mb-8">
+      <h3 className="text-start text-3xl md:text-4xl font-extrabold mt-5 mb-8">
         My work.
       </h3>
       <div className="grid md:grid-cols-2 md:justify-evenly gap-6 gap-y-4 w-80 md:w-full pb-6">
