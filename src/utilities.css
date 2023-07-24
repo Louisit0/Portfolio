@@ -84,6 +84,6 @@ p {
   font-size: 0.65rem;
 }
 
-.dvh {
-  height: 100dvh;
+.svh {
+  height: 100svh;
 }
