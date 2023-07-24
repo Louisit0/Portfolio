@@ -16,20 +16,20 @@ const Contact = () => {
           <div className="flex flex-col gap-8">
             <input
               type="text"
-              className="px-5 p-3 rounded-md bg-white border border-black"
+              className="px-5 p-3 rounded-md bg-white dark:bg-black border border-black dark:border-white"
               placeholder="Name"
             />
             <input
               type="text"
-              className="px-5 p-3 rounded-md bg-white border border-black"
+              className="px-5 p-3 rounded-md bg-white dark:bg-black border border-black dark:border-white"
               placeholder="Email"
             />
             <textarea
               type="text"
-              className="px-5 pt-2 pb-20 rounded-md bg-white border border-black"
+              className="px-5 pt-2 pb-20 rounded-md bg-white dark:bg-black border border-black dark:border-white"
               placeholder="Message"
             />
-            <button className="p-4 md:w-1/3 bg-black text-white">
+            <button className="p-4 md:w-1/3 bg-black text-white dark:border dark:border-white">
               Send Message
             </button>
           </div>

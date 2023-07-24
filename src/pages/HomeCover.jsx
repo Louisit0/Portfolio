@@ -14,7 +14,7 @@ const HomeCover = () => {
     >
       {/* <img src={gifGato} alt="gato" className="h-32 w-42 mx-auto my-4" /> */}
       <div className="flex flex-row">
-        <h1 className="font-bold self-start text-start text-6xl md:text-9xl md:-ml-2">
+        <h1 className="font-bold self-start text-start text-6xl md:text-9xl md:-ml-2 dark:text-white">
           LUIS RAMIREZ
         </h1>
       </div>
@@ -22,7 +22,7 @@ const HomeCover = () => {
         Self-taught <span className="font-bold">Frontend Developer</span> based
         in Buenos Aires, Argentina 📍.
       </h3>
-      <div className="flex flex-row mt-4 mb-6 w-1/2 md:w-1/3 justify-between">
+      <div className="flex flex-row mt-4 mb-6 w-1/2 md:w-1/4 justify-between">
         <BsFillEnvelopeFill size="1.5rem" />
         <BsTwitter size="1.5rem" />
         <BsLinkedin size="1.5rem" />

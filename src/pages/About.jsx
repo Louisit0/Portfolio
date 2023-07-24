@@ -9,15 +9,13 @@ const About = () => {
         </h3>
         <div className="mt-5">
           <h5 className="font-extrabold">Experiencia</h5>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-black dark:border-white">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 Abril 2022 - Ahora
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
-                Frontend Developer
-              </h3>
+              <h3 className="text-lg font-semibold">Frontend Developer</h3>
               <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                 Responsable de diseñar y programar la interfaz de usuario de los
                 sitios o aplicaciones web.
@@ -45,26 +43,22 @@ const About = () => {
             </a> */}
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 Febrero 2021 - Enero 2022
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
-                Trabajos freelance
-              </h3>
+              <h3 className="text-lg font-semibold">Trabajos freelance</h3>
               <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                 Creación y/o modificaciones en paginas y aplicaciones web
                 básicas.
               </p>
             </li>
             <li className="ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 2020 - 2021
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
-                Data entry
-              </h3>
+              <h3 className="text-lg font-semibold">Data entry</h3>
               <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                 Verificar imagenes de posibles infracciones de transito.
               </p>
@@ -73,13 +67,13 @@ const About = () => {
         </div>
         <div className="mt-20">
           <h5 className="font-extrabold">Mis recursos</h5>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-black dark:border-white">
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 2023
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
+              <h3 className="text-lg font-semibold">
                 Estructura de datos y algoritmos.{" "}
                 <span className="text-sm">Udemy</span>
               </h3>
@@ -92,25 +86,21 @@ const About = () => {
               </p>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 2023
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
-                Coderhouse
-              </h3>
+              <h3 className="text-lg font-semibold">Coderhouse</h3>
               <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                 Curso de Javascript
               </p>
             </li>
             <li className="ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-black dark:border-white dark:bg-white"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400">
                 2022
               </time>
-              <h3 className="text-lg font-semibold text-gray-900">
-                Freecodecamp
-              </h3>
+              <h3 className="text-lg font-semibold">Freecodecamp</h3>
               <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
                 Cursos de html5 y css3, javascript.
               </p>
