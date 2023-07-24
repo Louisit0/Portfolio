@@ -38,7 +38,7 @@ export const App = () => {
           onChange={() => setDrawerOpen(!drawerOpen)}
         />
         <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
-          <div className="flex flex-col max-w-4xl mx-auto svh md:h-screen">
+          <div className="flex flex-col max-w-4xl mx-auto dvh md:h-screen">
             <header>
               <Nav
                 togglerDrawer={togglerDrawer}
