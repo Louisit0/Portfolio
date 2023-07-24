@@ -83,3 +83,7 @@ p {
 .text-badges {
   font-size: 0.65rem;
 }
+
+.dvh {
+  height: 100dvh;
+}
