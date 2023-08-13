@@ -13,8 +13,8 @@ const Nav = ({
   };
 
   return (
-    <nav className="flex flex-col lg:flex-row w-full py-6 px-8 md:px-16 lg:px-0 text-black dark:text-white">
-      <div className="flex flex-row justify-between items-center h-full w-full lg:mx-auto">
+    <nav className="flex flex-col w-full bg-white dark:bg-black px-6 lg:flex-row py-6 text-black dark:text-gray-200">
+      <div className="flex flex-row max-w-4xl justify-between items-center h-full w-full lg:mx-auto">
         <Link to="/" className="my-auto font-bold text-xl">
           @louisit0
         </Link>
