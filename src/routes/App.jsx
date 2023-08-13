@@ -38,8 +38,8 @@ export const App = () => {
           onChange={() => setDrawerOpen(!drawerOpen)}
         />
         <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
-          <div className="flex flex-col max-w-4xl mx-auto dvh md:h-screen">
-            <header>
+          <div>
+            <header className="w-full sticky top-0 z-50 mx-auto">
               <Nav
                 togglerDrawer={togglerDrawer}
                 setDrawerContent={setDrawerContent}
@@ -48,20 +48,15 @@ export const App = () => {
               />
             </header>
             {/* Para que el nav y el main queden alineados quita el siguiente "mx-auto" */}
-            <main className="flex flex-row h-full">
+            <main className="flex flex-col h-full max-w-4xl mx-auto">
               <Routes>
-                <Route path="/" element={<HomeCover />}></Route>
+                <Route
+                  path="/"
+                  element={<HomeCover togglerDrawer={togglerDrawer} />}
+                ></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/techStack" element={<Skills />}></Route>
-                <Route
-                  path="/projects"
-                  element={
-                    <Projects
-                      togglerDrawer={togglerDrawer}
-                      setDrawerContent={setDrawerContent}
-                    />
-                  }
-                ></Route>
+                <Route path="/projects" element={<Projects />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>
               </Routes>
             </main>
@@ -207,9 +202,7 @@ export const App = () => {
                     type="checkbox"
                     defaultChecked={drawerOpen}
                   />
-                  <p className="font-bold text-xs self-center">
-                    Back to projects.
-                  </p>
+                  <p className="font-bold text-xs self-center">Cerrar</p>
                 </label>
               </div>
               <hr className="mx-3" />
