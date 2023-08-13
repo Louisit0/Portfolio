@@ -5,54 +5,49 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import avatarl from "../assets/img/avatarl.jpg";
+import Skills from "../components/Skills";
 
-const HomeCover = () => {
+const HomeCover = ({ togglerDrawer }) => {
   return (
-    <section
-      id="Home"
-      className="flex flex-col justify-center mx-6 md:mx-8 lg:mx-0"
-    >
-      {/* <img src={gifGato} alt="gato" className="h-32 w-42 mx-auto my-4" /> */}
-      <div className="flex flex-row">
-        <h1 className="font-bold self-start text-start text-6xl md:text-9xl md:-ml-2 dark:text-white">
-          LUIS RAMIREZ
-        </h1>
-      </div>
-      <h3 className="text-base self-start text-start lg:text-lg md:w-3/5 my-4 ">
-        Self-taught <span className="font-bold">Frontend Developer</span> based
-        in Buenos Aires, Argentina 📍.
-      </h3>
-      <div className="flex flex-row mt-4 mb-6 w-1/2 md:w-1/4 justify-between">
-        <BsFillEnvelopeFill size="1.5rem" />
-        <BsTwitter size="1.5rem" />
-        <BsLinkedin size="1.5rem" />
-        <BsGithub size="1.5rem" />
-      </div>
-      <div className="w-full mt-2 pb-4">
-        <Link
-          to={"/about"}
-          className=" select-none cursor-pointer transition-all font-bold"
-        >
-          <div className="flex flex-row w-full justify-start md:px-0">
-            <p className="mr-4 text-sm self-center">About me</p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-              />
-            </svg>
+    <>
+      <section
+        id="Home"
+        className="flex flex-col justify-center mx-6 md:mx-8 lg:mx-0 dvh md:h-screen"
+      >
+        <div className="flex flex-col-reverse md:flex-row">
+          <div className="w-5/6 md:w-3/5">
+            <h1 className="font-bold self-start text-start text-6xl md:text-8xl md:-ml-2 dark:text-gray-200">
+              LUIS RAMIREZ
+            </h1>
+            <h3 className="text-zinc-400 self-start text-start lg:text-lg md:w-5/6 my-4 tracking-tight">
+              Self-taught <span className="font-bold">Frontend Developer</span>{" "}
+              based in Buenos Aires, Argentina 📍.
+            </h3>
+            <div className="flex flex-row mt-4 mb-6 w-4/6 md:w-1/2 justify-between">
+              <BsFillEnvelopeFill size="1.5rem" />
+              <BsTwitter size="1.5rem" />
+              <BsLinkedin size="1.5rem" />
+              <BsGithub size="1.5rem" />
+            </div>
           </div>
-        </Link>
-      </div>
-    </section>
+          <div className="w-1/2 md:w-1/3 flex mx-auto mb-4 md:mb-0">
+            <img
+              src={avatarl}
+              alt="luis"
+              className="rounded-full h-full md:h-5/6"
+            />
+          </div>
+        </div>
+      </section>
+      <About />
+      <Projects togglerDrawer={togglerDrawer} />
+      <Skills />
+      <Contact />
+    </>
   );
 };
 
