@@ -39,25 +39,25 @@ export const App = () => {
         />
         <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
           <div>
-            <header className="w-full sticky top-0 z-50 mx-auto">
+            {/* <header className="w-full sticky top-0 z-50 mx-auto">
               <Nav
                 togglerDrawer={togglerDrawer}
                 setDrawerContent={setDrawerContent}
                 toggleDarkMode={toggleDarkMode}
                 darkMode={darkMode}
               />
-            </header>
+            </header> */}
             {/* Para que el nav y el main queden alineados quita el siguiente "mx-auto" */}
-            <main className="flex flex-col h-full max-w-4xl mx-auto">
+            <main>
               <Routes>
-                <Route
+                {/* <Route
                   path="/"
                   element={<HomeCover togglerDrawer={togglerDrawer} />}
                 ></Route>
-                <Route path="/about" element={<About />}></Route>
                 <Route path="/techStack" element={<Skills />}></Route>
-                <Route path="/projects" element={<Projects />}></Route>
-                <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/projects" element={<Projects />}></Route> */}
+                <Route path="/about" element={<About />}></Route>
+                <Route path="/" element={<Contact />}></Route>
               </Routes>
             </main>
           </div>
