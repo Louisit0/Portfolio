@@ -8,6 +8,7 @@ import HomeCover from "../pages/HomeCover";
 import Projects from "../pages/Projects";
 import projectsContent from "../utilities/ProjectContent";
 import { BsGithub, BsGlobe } from "react-icons/bs";
+import Header from "../components/Home/Header";
 
 export const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,6 +28,7 @@ export const App = () => {
 
   return (
     <div
+      style={{ fontFamily: "Satoshi-Regular" }}
       className={darkMode ? "dark bg-black text-white" : "bg-white text-black"}
     >
       <div className="drawer drawer-end">
@@ -38,28 +40,13 @@ export const App = () => {
           onChange={() => setDrawerOpen(!drawerOpen)}
         />
         <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
-          <div>
-            {/* <header className="w-full sticky top-0 z-50 mx-auto">
-              <Nav
-                togglerDrawer={togglerDrawer}
-                setDrawerContent={setDrawerContent}
-                toggleDarkMode={toggleDarkMode}
-                darkMode={darkMode}
-              />
-            </header> */}
-            {/* Para que el nav y el main queden alineados quita el siguiente "mx-auto" */}
-            <main>
+          <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+            <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
               <Routes>
-                {/* <Route
-                  path="/"
-                  element={<HomeCover togglerDrawer={togglerDrawer} />}
-                ></Route>
-                <Route path="/techStack" element={<Skills />}></Route>
-                <Route path="/projects" element={<Projects />}></Route> */}
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/" element={<Contact />}></Route>
               </Routes>
-            </main>
+            </div>
           </div>
         </div>
         <div className="drawer-side">
