@@ -1,14 +1,9 @@
 import { useState } from "react";
 import { Link, Routes, Route } from "react-router-dom";
-import Nav from "../components/Nav";
-import About from "../pages/About";
-import Skills from "../components/Skills";
-import Contact from "../pages/Contact";
-import HomeCover from "../pages/HomeCover";
 import Projects from "../pages/Projects";
+import Home from "../pages/Home";
 import projectsContent from "../utilities/ProjectContent";
 import { BsGithub, BsGlobe } from "react-icons/bs";
-import Header from "../components/Home/Header";
 
 export const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -43,8 +38,8 @@ export const App = () => {
           <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
             <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
               <Routes>
-                <Route path="/about" element={<About />}></Route>
-                <Route path="/" element={<Contact />}></Route>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/projects" element={<Projects />}></Route>
               </Routes>
             </div>
           </div>
