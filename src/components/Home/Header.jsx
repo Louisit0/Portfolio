@@ -8,11 +8,10 @@ const Header = () => {
           Luis Ramirez
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Frontend developer
+          Frontend React Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I build accessible, inclusive products and digital experiences for the
-          web.
+          Creo aplicaciones y sitios web accesibles y funcionales.
         </p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">

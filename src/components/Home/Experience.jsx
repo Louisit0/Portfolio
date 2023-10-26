@@ -21,7 +21,7 @@ const Experience = () => {
                 className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                 aria-label="2018 to Present"
               >
-                2018 — Present
+                2022 — Present
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="font-medium leading-snug text-slate-200">
@@ -34,9 +34,9 @@ const Experience = () => {
                     >
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <span>
-                        Lead Engineer ·
+                        Desarrollador Frontend · {""}
                         <span className="inline-block">
-                          Upstatement
+                          Superintendencia de seguros de la nación
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -54,22 +54,11 @@ const Experience = () => {
                       </span>
                     </a>
                   </div>
-                  <div className="text-slate-500" aria-hidden="true">
-                    Senior Engineer
-                  </div>
-                  <div>
-                    <div className="text-slate-500" aria-hidden="true">
-                      Engineer
-                    </div>
-                  </div>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Deliver high-quality, robust production code for a diverse
-                  array of projects for clients including Harvard Business
-                  School, Everytown for Gun Safety, Pratt Institute, Koala
-                  Health, Vanderbilt University, The 19th News, and more.
-                  Provide leadership within engineering department through close
-                  collaboration, knowledge shares, and mentorship.
+                  Responsable de diseñar y programar la interfaz de usuario de
+                  los sitios y aplicaciones web que son utilizadas y creadas en
+                  el organismo público.
                 </p>
                 <ul
                   className="mt-2 flex flex-wrap"
@@ -82,32 +71,37 @@ const Experience = () => {
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      React Native
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      SCSS
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      WordPress
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       JavaScript
                     </div>
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      TypeScript
+                      Tailwind
                     </div>
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      PHP
+                      HTML
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      CSS
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      .NET
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Gitlab
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Github
                     </div>
                   </li>
                 </ul>

@@ -14,88 +14,17 @@ const About = () => {
       </div>
       <div>
         <p className="mb-4">
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://us.mullenlowe.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            advertising agency
-          </a>
-          , a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://starry.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            start-up
-          </a>
-          , a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://scout.camd.northeastern.edu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            student-led design studio
-          </a>
-          , and a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://www.apple.com/apple-music/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            huge corporation
-          </a>
-          .
+          As a Junior Front-End Developer, I possess an impressive arsenal of
+          skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
+          designing and maintaining responsive websites that offer a smooth user
+          experience.
         </p>
         <p className="mb-4">
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://us.mullenlowe.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            advertising agency
-          </a>
-          , a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://starry.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            start-up
-          </a>
-          , a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://scout.camd.northeastern.edu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            student-led design studio
-          </a>
-          , and a{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://www.apple.com/apple-music/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            huge corporation
-          </a>
-          .
+          My expertise lies in crafting dynamic, engaging interfaces through
+          writing clean and optimized code and utilizing cutting-edge
+          development tools and techniques. I am also a team player who thrives
+          in collaborating with cross-functional teams to produce outstanding
+          web applications.
         </p>
       </div>
     </section>
