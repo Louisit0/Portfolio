@@ -20,7 +20,7 @@ const projectsContent = [
       "Es una app donde puedes buscar y encontrar pokemones, ver sus caracteristicas, evoluciones, entre otras cosas.",
     summary: "Buscador de pokemones desde la PokeApi.",
     image: pokedex,
-    technologies: ["React", "TailwindCSS", "SweetAlert2"],
+    technologies: ["React", "TailwindCSS"],
     github: "https://github.com/Louisit0/Tourism-web",
     demo: "https://louisit0.github.io/Tourism-web/",
   },

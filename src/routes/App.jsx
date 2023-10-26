@@ -35,7 +35,7 @@ export const App = () => {
           onChange={() => setDrawerOpen(!drawerOpen)}
         />
         <div className={`drawer-content ${drawerOpen ? "blur-sm" : ""}`}>
-          <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+          <div className="bg-stone-900 leading-relaxed text-gray-400 antialiased">
             <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
               <Routes>
                 <Route path="/" element={<Home />}></Route>
@@ -217,7 +217,7 @@ export const App = () => {
                         {project.technologies.map((technology) => (
                           <div
                             key={technology}
-                            className="bg-zinc-800 py-1 px-2 rounded-lg self-center mr-4 text-badges mt-2 font-bold text-white"
+                            className="bg-gray-800 py-1 px-2 rounded-lg self-center mr-4 text-badges mt-2 font-bold text-white"
                           >
                             {technology}
                           </div>
@@ -231,7 +231,7 @@ export const App = () => {
                       <a
                         href={project.demo}
                         target="_blank"
-                        className="text-sky-600 text-xs font-bold hover:underline"
+                        className="text-gray-600 text-xs font-bold hover:underline"
                       >
                         {project.demo}
                       </a>
@@ -242,7 +242,7 @@ export const App = () => {
                       <a
                         href={project.github}
                         target="_blank"
-                        className="text-sky-600 text-xs font-bold hover:underline"
+                        className="text-gray-600 text-xs font-bold hover:underline"
                       >
                         {project.github}
                       </a>
