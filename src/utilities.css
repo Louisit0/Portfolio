@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+* {
+  font-family: "Satoshi", sans-serif;
+}
 
 body {
-  font-family: "JetBrains Mono", monospace;
   margin: 0;
   border: none;
   font-weight: 500;
-}
-
-h1 {
-  font-family: "Archivo Black", sans-serif;
 }
 
 #About {
