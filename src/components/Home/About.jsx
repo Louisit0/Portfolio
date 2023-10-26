@@ -12,7 +12,7 @@ const About = () => {
           About
         </h2>
       </div>
-      <div>
+      <div className="text-lg">
         <p className="mb-4">
           As a Junior Front-End Developer, I possess an impressive arsenal of
           skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
